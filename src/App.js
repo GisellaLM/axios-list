@@ -22,6 +22,7 @@ function App() {
 
     } catch (error) {
       console.log('prueba');
+      console.log('verificando el update');
       console.log(error);
     }
   };
