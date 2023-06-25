@@ -21,6 +21,7 @@ function App() {
       setIsLoaded(true)
 
     } catch (error) {
+      console.log('prueba');
       console.log(error);
     }
   };
