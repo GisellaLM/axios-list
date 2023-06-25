@@ -1,0 +1,34 @@
+ [
+  {
+    "id": "f6b0b70a-533c-46fa-996b-874d60f28c74",
+    "courseName":"Course ling",
+    "courseNumber":"10"
+  },
+  {
+    "id": "f6o0b79a-533c-46fa-996b-874d60f28c74",
+    "courseName":"Course analytics",
+    "courseNumber":"14"
+  },
+  {
+    "id": "f3b0b79a-533c-46fa-996b-874d60f28c74",
+    "courseName":"Course 3",
+    "courseNumber":"1"
+  },
+  {
+    "id": "f4b0b79a-533c-46fa-996b-874d60f28c74",
+    "courseName":"GG Course",
+    "courseNumber":"4"
+  },
+  {
+    "id": "f5b0b79a-533c-46fa-996b-874d60f28c74",
+    "courseName":"BI Course",
+    "courseNumber":"12"
+  },
+  {
+    "id": "f6r0b79a-533c-46fa-996b-874d60f28c74",
+    "courseName":"English Course ",
+    "courseNumber":"24"
+  }
+]
+
+
