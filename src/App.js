@@ -21,7 +21,7 @@ function App() {
       setIsLoaded(true)
 
     } catch (error) {
-      console.log('prueba');
+      console.log('prueba de merge to master');
       console.log(error);
     }
   };
