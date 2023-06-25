@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import CourseForm from "./components/CourseForm";
 import CourseList from "./components/CourseList";
 import store from "./store";
-import {setItems} from "./action";
+import { setItems } from "./action";
 import Axios from "axios";
 
 
@@ -19,26 +19,27 @@ function App() {
 
       store.dispatch(setItems(response.data))
       setIsLoaded(true)
-      
+
     } catch (error) {
       console.log(error);
     }
   };
 
-  useEffect(() => {fetchData();});
-  
+  useEffect(() => { fetchData(); });
+
   return (
     <div className="App">
       {
         !isLoaded ? <div>loading</div> : (
           <div>
-          <CourseList></CourseList>
-          <CourseForm></CourseForm>
-        </div> )
-          
+            <CourseList></CourseList>
+            <CourseForm></CourseForm>
+            <div>prueba git merge!</div>
+          </div>)
+
       }
-      
-     
+
+
       {/* <div><CourseItem key={""} courseName={""}></CourseItem></div> */}
     </div>
   );
